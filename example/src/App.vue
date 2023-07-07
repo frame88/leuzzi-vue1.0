@@ -1,10 +1,11 @@
+<!-- eslint-disable vue/attributes-order -->
 <template>
     <div id="app">
-        <ul id="menu">
+        <div id="menu" style="display: flex; justify-content: center">
             <li data-menuanchor="page1" class="active"><a href="#page1">Chi sono</a></li>
             <li data-menuanchor="page2"><a href="#page2">Siti attivi</a></li>
-            <li data-menuanchor="page3"><a href="#page3">Siti passati</a></li>
-        </ul>
+            <li data-menuanchor="page3"><a href="#page3">Crea il tuo menu</a></li>
+        </div>
         <!-- <ul class="actions">
             <li>
                 <a class="actions-button" href="#" rel="noopener" @click="addSection">Add section</a>
@@ -23,7 +24,20 @@
         <full-page :options="options" id="fullpage" ref="fullpage">
             <!-- 1pagina -->
             <div class="section">
-                <h3>Chi sono</h3>
+              <div style="text-align: center">
+                <img src="../src/assets/img/newlogo.png" alt="logo Leuzzi">
+              </div>
+              <div style="text-align: center">
+                  <h4 class="bold" style="font-size: 2em">Francesco Leuzzi</h4>
+                  <p style="margin: 2rem;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, sunt nisi animi at distinctio eum
+                      soluta dolor voluptas cupiditate quia officiis, harum dolore maiores quod mollitia. Illo nemo ex
+                      temporibus!
+                  </p>
+                  <p class="mt1"><strong>Se hai bisogno di metterti in contatto con me, puoi mandarmi una mail all'indirizzo</strong><a class="block" href="mailto:fleuzzi97@gmail.com">fleuzzi97@gmail.com</a></p>
+                  <a href="https://www.linkedin.com/in/francesco-leuzzi-5497a8221/?originalSubdomain=it" target="_blank">
+                      <h2><i class="fa-brands fa-linkedin"></i></h2>
+                  </a>
+              </div>
             </div>
 
             <!-- 2pagina -->
@@ -43,6 +57,7 @@
             <div class="section">
                 <h3>Section 3</h3>
             </div>
+
         </full-page>
     </div>
 </template>
@@ -63,8 +78,8 @@
           scrollBar: false,
           menu: '#menu',
           navigation: true,
-          anchors: ['page1', 'page2', 'page3'],
-          sectionsColor: ['#41b883', '#ff5f45', '#0798ec', '#fec401', '#1bcee6', '#ee1a59', '#2c3e4f', '#ba5be9', '#b4b8ab']
+          anchors: ['page1', 'page2', 'page3', 'page4'],
+          sectionsColor: ['white', '#ff5f45', '#0798ec', '#fec401', '#1bcee6', '#ee1a59', '#2c3e4f', '#ba5be9', '#b4b8ab']
         }
       }
     },
@@ -143,6 +158,21 @@
         margin: 0 10px;
     }
     a {
-        color: #42b983;
+         color: #5296A5;
+         font-weight: 600; 
     }
+
+    img {
+      width: 100px;
+      margin-bottom: 2rem;
+    }
+
+    #menu {
+      background-color: rgba(0, 0, 0, 0.341);
+      height: 7vh;
+      display: flex;
+      align-items: center;
+      width: 100%
+    }
+    
 </style>
