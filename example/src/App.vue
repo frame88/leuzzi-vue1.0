@@ -41,21 +41,36 @@
             </div>
 
             <!-- 2pagina -->
-            <div class="section">
+            <div class="section makeurmenu">
                 <div class="slide">
-                    <h3>Slide 2.1</h3>
+                  <h3>Menu</h3>
+                  <div style="margin: 2rem; padding:1rem; color:white; background-color: rgba(0, 0, 0, 0.664); border-radius: 5px">
+                    <span>Gli esempi seguenti si pongono l’obbiettivo di creare un’idea quanto più concreta di quello che sarà poi il menù finale, ma possono essere personalizzati in ogni loro aspetto e funzione in base alle necessità e ai gusti del cliente.</span>
+                  </div>
+                </div>
+                <div class="slide" >
+                  <div style="text-align: center; color: white">
+                    <h3>Unus</h3>
+                    <span>clicca sul titolo per visualizzare il menu</span>
+                  </div>
                 </div>
                 <div class="slide">
-                    <h3>Slide 2.2</h3>
+                  <div style="text-align: center; color: white">
+                    <h3>Duo</h3>
+                    <span>clicca sul titolo per visualizzare il menu</span>
+                  </div>
                 </div>
                 <div class="slide">
-                    <h3>Slide 2.3</h3>
+                  <div style="text-align: center; color: white">
+                    <h3>Tribus</h3>
+                    <span>Gli esempi seguenti si pongono l’obbiettivo di creare un’idea quanto più concreta di quello che sarà poi il menù finale, ma possono essere personalizzati in ogni loro aspetto e funzione in base alle necessità e ai gusti del cliente.</span> 
+                  </div>
                 </div>
-            </div>
+              </div>
 
             <!-- 3pagina -->
-            <div class="section">
-                <h3>Section 3</h3>
+            <div class="section website">
+                <h3>Siti attivi</h3>
             </div>
 
         </full-page>
@@ -175,4 +190,15 @@
       width: 100%
     }
     
+    .makeurmenu {
+      background-image: url('../src/assets/img/dwinanda-nurhanif-mujito-pKT5Mg16w_w-unsplash.jpg');
+      background-position:bottom;
+      background-size: cover;
+    }
+    
+    .website {
+      background-image: url('../src/assets/img/austin-neill-5CusMrOVwqI-unsplash.jpg');
+      background-position: center;
+      background-size: cover;
+    }
 </style>

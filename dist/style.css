@@ -41,7 +41,7 @@
       overflow: hidden;
       position: relative;
       -webkit-transition: all .3s ease-out;
-      transition: all .3s ease-out
+      transition: all .3s ease-out;
   }
 
   .fp-table {
@@ -68,7 +68,7 @@
       margin-top: -38px;
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
-      transform: translateZ(0)
+      transform: translateZ(0);
   }
 
   .fp-prev {
@@ -101,13 +101,15 @@
   }
 
   #fp-nav {
-      position: fixed;
-      z-index: 100;
-      top: 50%;
-      opacity: 1;
-      transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      -webkit-transform: translate3d(0, -50%, 0)
+    position: fixed;
+    z-index: 100;
+    top: 20%;
+    opacity: 1;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translate3d(0, -50%, 0);
+    background-color: rgba(255, 255, 255, 0.652);
+    border-radius: 30px;
   }
 
   #fp-nav.fp-right {
