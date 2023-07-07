@@ -3,8 +3,8 @@
     <div id="app">
         <div id="menu" style="display: flex; justify-content: center">
             <li data-menuanchor="page1" class="active"><a href="#page1">Chi sono</a></li>
-            <li data-menuanchor="page2"><a href="#page2">Siti attivi</a></li>
-            <li data-menuanchor="page3"><a href="#page3">Crea il tuo menu</a></li>
+            <li data-menuanchor="page2"><a href="#page2">Crea il tuo menu</a></li>
+            <li data-menuanchor="page3"><a href="#page3">Siti attivi</a></li>
         </div>
         <!-- <ul class="actions">
             <li>

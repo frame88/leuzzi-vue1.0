@@ -72,11 +72,11 @@
   }
 
   .fp-prev {
-      left: 15px
+      left: 5px;
   }
 
   .fp-next {
-      right: 15px
+      right: 5px
   }
 
   .fp-arrow {
@@ -86,12 +86,12 @@
   }
 
   .fp-arrow.fp-prev {
-      border-width: 38.5px 34px 38.5px 0;
+      border-width: 18.5px 14px 18.5px 0;
       border-color: transparent #fff transparent transparent
   }
 
   .fp-arrow.fp-next {
-      border-width: 38.5px 0 38.5px 34px;
+      border-width: 18.5px 0 18.5px 14px;
       border-color: transparent transparent transparent #fff
   }
 
